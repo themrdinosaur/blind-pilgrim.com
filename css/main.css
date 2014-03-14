@@ -1,0 +1,132 @@
+
+
+/* ==========================================================================
+   AF custom styles
+   ========================================================================== */
+body{
+    background-color: #101010;
+}
+#maincontainer{
+    background-image: url('../img/background.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #101010;
+}
+
+header  {
+    display: block;
+    height: 20%;
+}
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%; 
+    max-height:100%;
+
+}
+
+.fb-like{
+    padding-top: 20px;
+    width: 30px;
+    display: inline-block;
+
+}
+.signup{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+}
+.signupForm{
+    position: absolute; 
+    top: -40px;
+}
+
+.jumbotron .container{
+    background:lightGrey;
+    border-radius:15px;
+    opacity: .80; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=80); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    -khtml-opacity: .80; /* Safari 1.x */
+    -moz-opacity: .80; /* FF lt 1.5, Netscape */
+    max-width: 720px;   
+}
+
+#mainMessage{
+
+}
+.stefFont{
+    font-family: 'Fanwood Text', serif;
+}
+
+.reverb{
+    max-width: 560px;
+}
+
+.col-1{
+
+    display: inline-block;
+    width: 59%;
+}
+
+.col-2{
+    display: inline;
+    float: right;
+    width: 39%;
+    height: 100%;
+
+}
+.twitter-timeline{
+    height:650px;
+}
+
+.utube-player{
+    width:560px;
+    height:315px;
+}
+@media (max-width: 991px) {
+    .utube-player{
+        max-width: 425px;
+    }
+}
+@media (max-width: 768px) {
+
+    .col-1,.col-2{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5px;
+        display: block;
+    }
+
+    .jumbotron .container h2{
+        font-size: 80%;
+    }
+    .col-1{
+        width: 98%;
+
+    }
+    .reverb{
+        max-width: none;
+    }
+    .utube-player{
+        max-width: 98%;
+    }
+
+    .col-2{
+
+        float: none;
+        width: 98%;
+    }
+
+    .signup{
+        display: block;
+
+    }
+    
+    .signupForm{
+    position: static; 
+    
+}
+}
